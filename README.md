@@ -41,6 +41,7 @@ To run the E2E tests, use the following command:
 
 ## Project Structure
 These classes contain methods and variables that can be accessed individually or collectively by the test scripts.
+    ```
     Page Objects:
         loginPage.js
         productPage.js
@@ -49,8 +50,10 @@ These classes contain methods and variables that can be accessed individually or
         filterPage.js
         logoutPage.js
         resetAppStatePage.js
+     ```
 
 These classes contain test scripts to execute the tests.
+   ```
     Testes E2E:
         login.cy.js
         checkout.cy.js
@@ -58,7 +61,7 @@ These classes contain test scripts to execute the tests.
         filter.cy.js
         product.cy.js
         logout.cy.js
-
+   ```
 
 
 
@@ -106,6 +109,7 @@ Para rodar os testes E2E, utilize o seguinte comando:
 ## Estrutura do Projeto
 
 Essas classes contêm métodos e variáveis para serem acessadas individualmente ou em conjunto pelos scripts de testes.
+```
     Page Objects:
         loginPage.js
         productPage.js
@@ -114,12 +118,15 @@ Essas classes contêm métodos e variáveis para serem acessadas individualmente
         filterPage.js
         logoutPage.js
         resetAppStatePage.js
+   ```
 
 Essas classes contêm scripts de testes para realizar os testes.
-    Testes E2E:
+```
+ Testes E2E:
         login.cy.js
         checkout.cy.js
         cart.cy.js
         filter.cy.js
         product.cy.js
         logout.cy.js
+```
