@@ -21,19 +21,22 @@ Clone this repository:
    ```
 
 
-2. Install the dependencies:
-```npm install
+2. Install the dependencies: 
+```
+npm install
 ```
 
 3.If an error occurs, delete the node_modules folder and the package.json and package-lock.json files. Then run the following commands:
-        ```npm init -y
+        ```
+        npm init -y
         npm install cypress --save-dev
         ```
     This process will install the necessary dependencies to run the tests on your machine and resolve any Node.js dependency issues.
 
 ## Running the Tests
 To run the E2E tests, use the following command:
-        ```npx cypress open
+        ```
+        npx cypress open
         ```
 
 ## Project Structure
@@ -80,11 +83,13 @@ Este projeto é uma implementação de testes E2E para a aplicação [Sauce Demo
    ```
 
 2. Instale as dependências:
-    ```npm install
+    ```
+    npm install
     ```
 
 3. Se ocorrer uma falha, delete a pasta node_modules e os arquivos package.json e package-lock.json. Em sequência, rode os comandos:
-        ```npm init -y
+        ```
+        npm init -y
         npm install cypress --save-dev
         ```
  Esse processo instalará as dependências necessárias para executar os testes na sua máquina e resolverá problemas relacionados a dependências do Node.js
@@ -93,7 +98,8 @@ Este projeto é uma implementação de testes E2E para a aplicação [Sauce Demo
 ## executando os testes
 
 Para rodar os testes E2E, utilize o seguinte comando:
-   ```npx cypress open
+   ```
+   npx cypress open
    ```
 
 
