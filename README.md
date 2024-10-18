@@ -16,8 +16,8 @@ npm or yarn
 Installation
 Clone this repository:
 ```bash
-   git clone https://github.com/Tarikfs/cypress-saucedemo.git
-   cd seu_projeto
+git clone https://github.com/Tarikfs/cypress-saucedemo.git
+cd seu_projeto
 ```
 
 
@@ -28,21 +28,21 @@ npm install
 
 3.If an error occurs, delete the node_modules folder and the package.json and package-lock.json files. Then run the following commands:
 ```
-        npm init -y
-        npm install cypress --save-dev
+npm init -y
+npm install cypress --save-dev
 ```
 This process will install the necessary dependencies to run the tests on your machine and resolve any Node.js dependency issues.
 
 ## Running the Tests
 To run the E2E tests, use the following command:
 ```
-        npx cypress open
+npx cypress open
 ```
 
 ## Project Structure
 These classes contain methods and variables that can be accessed individually or collectively by the test scripts.
 ```
-    Page Objects:
+Page Objects:
         loginPage.js
         productPage.js
         checkoutPage.js
@@ -54,7 +54,7 @@ These classes contain methods and variables that can be accessed individually or
 
 These classes contain test scripts to execute the tests.
 ```
-    Testes E2E:
+Testes E2E:
         login.cy.js
         checkout.cy.js
         cart.cy.js
@@ -81,19 +81,19 @@ Este projeto é uma implementação de testes E2E para a aplicação [Sauce Demo
 
 1. Clone este repositório:
 ```bash
-   git clone https://github.com/Tarikfs/cypress-saucedemo.git
-   cd seu_projeto
+git clone https://github.com/Tarikfs/cypress-saucedemo.git
+cd seu_projeto
 ```
 
 2. Instale as dependências:
 ```
-    npm install
+npm install
 ```
 
 3. Se ocorrer uma falha, delete a pasta node_modules e os arquivos package.json e package-lock.json. Em sequência, rode os comandos:
 ```
-        npm init -y
-        npm install cypress --save-dev
+npm init -y
+npm install cypress --save-dev
 ```
  Esse processo instalará as dependências necessárias para executar os testes na sua máquina e resolverá problemas relacionados a dependências do Node.js
 
@@ -102,7 +102,7 @@ Este projeto é uma implementação de testes E2E para a aplicação [Sauce Demo
 
 Para rodar os testes E2E, utilize o seguinte comando:
 ```
-   npx cypress open
+npx cypress open
 ```
 
 
@@ -110,7 +110,7 @@ Para rodar os testes E2E, utilize o seguinte comando:
 
 Essas classes contêm métodos e variáveis para serem acessadas individualmente ou em conjunto pelos scripts de testes.
 ```
-    Page Objects:
+Page Objects:
         loginPage.js
         productPage.js
         checkoutPage.js
@@ -122,7 +122,7 @@ Essas classes contêm métodos e variáveis para serem acessadas individualmente
 
 Essas classes contêm scripts de testes para realizar os testes.
 ```
- Testes E2E:
+Testes E2E:
         login.cy.js
         checkout.cy.js
         cart.cy.js
