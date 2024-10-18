@@ -16,7 +16,7 @@ npm or yarn
 Installation
 Clone this repository:
  ```bash
-   git clone https://github.com/.git
+   git clone https://github.com/Tarikfs/cypress-saucedemo.git
    cd seu_projeto
    ```
 
@@ -78,7 +78,7 @@ Este projeto é uma implementação de testes E2E para a aplicação [Sauce Demo
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/.git
+   git clone https://github.com/Tarikfs/cypress-saucedemo.git
    cd seu_projeto
    ```
 
